@@ -1,0 +1,31 @@
+.dailyForecast .dailyForecast__title {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+@media only screen and (min-width: 768px) {
+  .dailyForecast .dailyForecast__title {
+    font-size: 1.3rem;
+  }
+}
+.dailyForecast .dailyForecast__contents {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 0.5rem;
+}
+.dailyForecast .dailyForecast__contents .forecastDay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 0.9rem;
+}
+@media only screen and (min-width: 375px) {
+  .dailyForecast .dailyForecast__contents .forecastDay {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=dailyForecast.css.map */
