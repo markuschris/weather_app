@@ -14,7 +14,7 @@ export default class currentLocation {
         this._name = name;
     }
 
-    getLat(){
+    getLat() {
         return this._lat;
     }
 
